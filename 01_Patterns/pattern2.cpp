@@ -10,23 +10,20 @@ int main()
 
     cin >> n;
 
-    int i = n;
-    // 5
-
-    while (i >= 0)
+    int i = 1;
+    while (i <= n)
     {
 
         int j = i;
-        // j=5
 
-        while (j >= 0)
+        while (j <= n)
         {
             cout << "*";
-            j -= 1;
+            j += 1;
         }
 
         cout << "\n";
-        i -= 1;
+        i += 1;
     }
 
     return 0;
